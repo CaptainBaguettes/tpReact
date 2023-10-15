@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML vers React</title>
+  </head>
+
+  <body>
+    <div id="firstElement">Alors, ça fonctionne ?</div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+      function MyFirstComponent() {
+        return <div>Ah oui ça marche blabla ***</div>;
+      }
+      function MySecondComponent() {
+        return <p>text text 2nd component text text text</p>;
+      }
+      function MyName() {
+        const name = "Name";
+        return <p>{name.toUpperCase()}</p>;
+      }
+
+      ReactDOM.render(
+        <React.Fragment>
+          <MyFirstComponent /> <MySecondComponent /> <MyName />
+        </React.Fragment>,
+        document.getElementById("firstElement")
+      );
+    </script>
+  </body>
+</html>
