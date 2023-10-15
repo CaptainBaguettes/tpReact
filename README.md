@@ -62,7 +62,7 @@ Ce Tp était comme les deux premiers très guidé au début avec une partie libr
 
 ## Conclusion
 
-Les Tps m'ont permis de découvrir et de voir les spécificités du frameworks React et du développement mobile, de plus la partie libre m'a permis de chercher des solutions et d'approufondir le cours en allant chercher sur internet et en essayant plusieurs choses.
+Les Tps m'ont permis de découvrir et de voir les spécificités du frameworks React et du développement mobile, de plus la partie libre m'a permis de chercher des solutions et d'approufondir le cours en allant chercher sur internet et en essayant plusieurs choses malgré le fait que je n'ai pas eu le temps de finir entièrement ces parties.
 
 Les trois tps me permettent d'appréhender plus facilement le projet en équipe.
 
